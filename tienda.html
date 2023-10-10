@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a nuestra tienda virtual</span>
+                <h1>Ofertas especiales</h1>
+                <p>
+                    En esta tienda podras encontrar todo tipo de
+                    productos para el hogar a un buen precio y de una 
+                    exelente calidad. Siempre podras contar con nuestro Servicios
+                    de ventas.
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">información</a>
+                    <a href="#" class="btn-1">leer más</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/bag.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Todo tipo de verduras para tus comidas y ensaladas.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s1.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>Todo tipo de frutas y verduras para tus jugos.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s2.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Leche para tus desayunos o refijerios.</h3>
+                <a href="#">Leer más</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="imagenes/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>Leche gloria en tarro</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$4.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>Gelatina</h3>
+                    <p>Sabor fresa</p>
+                    <p class="precio">$3.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Azucar</h3>
+                    <p>Saco de 55 kilos</p>
+                    <p class="precio">$195</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Acetite</h3>
+                    <p>Primor tapa dorada</p>
+                    <p class="precio">$12.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>Papel Higenico</h3>
+                    <p>Maxima suabidad y calidad</p>
+                    <p class="precio">$4.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>Cereal Frutt</h3>
+                    <p>Paquete grande de 450gr </p>
+                    <p class="precio">$8.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>Frugos del Valle</h3>
+                    <p>Jugo natural de naranja</p>
+                    <p class="precio">$6.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr8.png" alt="">
+                <div class="product-txt">
+                    <h3>Nescafé</h3>
+                    <p>El mejor café del pais</p>
+                    <p class="precio">$7.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr9.png" alt="">
+                <div class="product-txt">
+                    <h3>Colgate</h3>
+                    <p>Pasta de dientes</p>
+                    <p class="precio">$4.80</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr10.png" alt="">
+                <div class="product-txt">
+                    <h3>Lentejitas</h3>
+                    <p>Calidad premium</p>
+                    <p class="precio">$4.30</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr11.png" alt="">
+                <div class="product-txt">
+                    <h3>Paquete de galletas Oreo</h3>
+                    <p>Vienen 6 paquetes por caja</p>
+                    <p class="precio">$13</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr12.png" alt="">
+                <div class="product-txt">
+                    <h3>Yogurt Gloria</h3>
+                    <p>Sabor tuti frutti</p>
+                    <p class="precio">$8.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr13.png" alt="">
+                <div class="product-txt">
+                    <h3>Mantequilla Gloria</h3>
+                    <p>50 gramos del mejor sabor</p>
+                    <p class="precio">$6.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="13">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr14.png" alt="">
+                <div class="product-txt">
+                    <h3>Yogurt Griego</h3>
+                    <p>Con trozos de fresa</p>
+                    <p class="precio">$3.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="14">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr15.png" alt="">
+                <div class="product-txt">
+                    <h3>Jamonada</h3>
+                    <p>Jamon especial de pavo</p>
+                    <p class="precio">$5.60</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="15">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr16.png" alt="">
+                <div class="product-txt">
+                    <h3>La costeña</h3>
+                    <p>Maiz en lata</p>
+                    <p class="precio">$11</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="16">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr17.png" alt="">
+                <div class="product-txt">
+                    <h3>Crunch</h3>
+                    <p>15 piezas de mazapán</p>
+                    <p class="precio">$15</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="17">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr18.png" alt="">
+                <div class="product-txt">
+                    <h3>Ades</h3>
+                    <p>Jugo de uva con soya</p>
+                    <p class="precio">$13.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="18">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr19.png" alt="">
+                <div class="product-txt">
+                    <h3>Gamesa</h3>
+                    <p>Florentinas sabor cajeta</p>
+                    <p class="precio">$9.50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="19">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr20.png" alt="">
+                <div class="product-txt">
+                    <h3>Ades</h3>
+                    <p>Leche de soya 100% natural</p>
+                    <p class="precio">$11</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="20">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Más</div>
+    </main>
+    
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Nuestros clientes consideran que nuestro servicio de tienda 
+                    virtual es uno de los mejores sitios web donde pueden encontrar
+                    todo tipo de productos de primera necesidad y de limpieza lo cual 
+                    les facilita el poder comprarlos.
+                </p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>Opinion de Lucas Justo Contreras Blas</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Yo opino que este es un buen sitio web para poder
+                    hacer las compras y rellenar mi despensa familiar 
+                    sin la necesidad de salir de mi casa ya que nos
+                    traen los porductos directamente a nuestro domicilio.
+                </p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>Lorem impsum</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Telefono</h3>
+                <ul>
+                    <li><a href="#">+51 5487524</a></li>
+                    <li><a href="#">985754475</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Nombre de la tienda</h3>
+                <ul>
+                    <li><a href="#">tambo</a></li>
+                    <li><a href="#">mas</a></li>
+                    <li><a href="#">tienda de don Lucas</a></li>
+                    <li><a href="#">tienda max</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Lugar</h3>
+                <ul>
+                    <li><a href="#">avenida lima cuadra 5</a></li>
+                    <li><a href="#">frente a al paradero sol naciente</a></li>
+                    <li><a href="#">camine 2 cuadras hacia la derecha</a></li>
+                    <li><a href="#">y 3 cuadras defrente</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Horario de atención</h3>
+                <ul>
+                    <li><a href="#">7:10 am hasta las 9:30 pm</a></li>
+                    <li><a href="#">9:30 am hasta las 12:00 pm</a></li>
+                    <li><a href="#">12:00 pm hasta las 18:45 pm</a></li>
+                    <li><a href="#">18:45 pm hasta las 23:30 pm</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
